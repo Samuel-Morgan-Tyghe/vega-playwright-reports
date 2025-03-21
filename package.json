@@ -1,0 +1,16 @@
+{
+  "name": "vega-playwright-reports",
+  "version": "1.0.0",
+  "description": "Repository for hosting Playwright test reports",
+  "scripts": {
+    "build": "tsc",
+    "predeploy": "npm run build",
+    "deploy": "ts-node scripts/deploy.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
